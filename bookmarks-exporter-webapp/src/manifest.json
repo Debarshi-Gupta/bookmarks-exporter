@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Bookmark Exporter",
+  "version": "1.0",
+  "description": "Export bookmarks to CSV",
+  "permissions": [
+    "bookmarks",
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "index.html",   
+    "default_icon": {
+      "16": "assets/icon16.png",
+      "48": "assets/icon48.png",
+      "128": "assets/icon128.png"
+    }
+  }
+}
